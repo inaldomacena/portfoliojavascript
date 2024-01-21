@@ -323,3 +323,35 @@ footer img {
     max-width: 100px;
 }
 
+
+.cursos{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.cursos li{
+    margin-bottom: 1rem;
+}
+.cursos li .period{
+    display:flex;
+    flex-direction:row;
+    align-items:center
+    
+}
+
+
+ .cursos li .period::before{
+    content: "";
+    display:inline-block;
+    flex-direction:column;
+    width: 1rem;
+    height: 1rem;
+    background-image:url('../imagens/calendar.png') ;
+    background-repeat:no-repeat;
+    background-size: contain;
+    margin-right:.5rem;
+
+}
