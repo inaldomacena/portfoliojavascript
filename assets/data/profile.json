@@ -54,6 +54,18 @@
     "Espanhol (básico)"
     
   ],
+  "cursos": [
+    {
+      "name": "HTML Developer",
+      "url": "https://github.com/inaldomacena/clonando-o-site-da-HBO-MAX-com-animacoes-em-HTML-e-CSS",
+      "github": true
+    },
+    {
+      "name": "CSS Developer",
+      "url": "https://github.com/inaldomacena/construindo-um-layout-responsivo-para-o-site-do-discord-com-css",
+      "github": true
+    }
+  ],
   "portfolio": [
     {
       "name": "Clonando o site da HBOMax com animações em HTMl5 e CSS3",
