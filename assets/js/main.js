@@ -39,27 +39,6 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
-
-function updateCursos(profileData) {
-    const cursos = document.getElementById('profile.cursos')
-    cursos.innerHTML = profileData.cursos.map(cursos => {
-        return `
-            <li>
-                <h3 class="title">${cursos.name}</h3>
-                <p class="period">${cursos.period}</p>
-                <p>${cursos.description}</p>
-            </li>
-        `
-    }).join('')
-}
-
-
-
-
-
-
-
-
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
     portfolio.innerHTML = profileData.portfolio.map(project => {
@@ -71,6 +50,16 @@ function updatePortfolio(profileData) {
         `
     }).join('')
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -94,7 +83,6 @@ function updateProfessionalExperience(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
-    updateCursos(profileData)
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
 })()
