@@ -56,16 +56,21 @@
   ],
   "cursos": [
     {
-      "name": "HTML Developer",
-      "url": "https://github.com/inaldomacena/clonando-o-site-da-HBO-MAX-com-animacoes-em-HTML-e-CSS",
-      "github": true
+      "name": "Monitor de informática",
+      "period": "2022 - até o momento",
+      "description": "Monitoria em curso tecnico de Redes de Computadores do Instituto Metropole Digital."
     },
     {
-      "name": "CSS Developer",
-      "url": "https://github.com/inaldomacena/construindo-um-layout-responsivo-para-o-site-do-discord-com-css",
-      "github": true
+      "name": "Agente Censitário do IBGE",
+      "period": "2017 - 2018",
+      "description": "Trabalhei na realização do Censo Populacional Rural."
+    },
+    {
+      "name": "Professor no Ensino Fundamental II",
+      "period": "2016 - 2021",
+      "description": "Atuei com professor de Geografia, Artes e Ensino Religioso nas turmas de 6° ao 9°ano ."
     }
-  ],
+  ]
   "portfolio": [
     {
       "name": "Clonando o site da HBOMax com animações em HTMl5 e CSS3",

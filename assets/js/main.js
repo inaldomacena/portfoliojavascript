@@ -53,11 +53,12 @@ function updatePortfolio(profileData) {
 
 function updateCursos(profileData) {
     const cursos = document.getElementById('profile.cursos')
-    cursos.innerHTML = profileData.cursos.map(project => {
+    cursos.innerHTML = profileData.cursos.map(experience => {
         return `
             <li>
-                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
-                <a href="${project.url}" target="_blank">${project.url}</a>
+                <h3 class="title">${experience.name}</h3>
+                <p class="period">${experience.period}</p>
+                <p>${experience.description}</p>
             </li>
         `
     }).join('')
