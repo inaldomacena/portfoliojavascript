@@ -53,12 +53,12 @@ function updatePortfolio(profileData) {
 
 function updateCursos(profileData) {
     const cursos = document.getElementById('profile.cursos')
-    cursos.innerHTML = profileData.cursos.map(experience => {
+    cursos.innerHTML = profileData.cursos.map(cursos => {
         return `
             <li>
-                <h3 class="title">${experience.name}</h3>
-                <p class="period">${experience.period}</p>
-                <p>${experience.description}</p>
+                <h3 class="title">${cursos.name}</h3>
+                <p class="period">${cursos.period}</p>
+                <p>${cursos.description}</p>
             </li>
         `
     }).join('')
