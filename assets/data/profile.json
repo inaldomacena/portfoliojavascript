@@ -56,17 +56,17 @@
   ],
   "cursos": [
     {
-      "name": "Monitor de informática",
+      "name": "HTML Developer",
       "period": "2022 - até o momento",
       "description": "Monitoria em curso tecnico de Redes de Computadores do Instituto Metropole Digital."
     },
     {
-      "name": "Agente Censitário do IBGE",
+      "name": "CSS Developer",
       "period": "2017 - 2018",
       "description": "Trabalhei na realização do Censo Populacional Rural."
     },
     {
-      "name": "Professor no Ensino Fundamental II",
+      "name": "Javascript Developer",
       "period": "2016 - 2021",
       "description": "Atuei com professor de Geografia, Artes e Ensino Religioso nas turmas de 6° ao 9°ano ."
     }
